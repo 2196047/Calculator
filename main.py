@@ -1,18 +1,23 @@
 # Program make a simple calculator
 
 
+# This function adds two variables together
 def add(x, y):
     return x + y
 
+
+# This function subtracts one variable from another
 
 def subtract(x, y):
     return x - y
 
 
+# This function multiplies two variables together
 def multiply(x, y):
     return x * y
 
 
+# This function divides one variable from another
 def divide(x, y):
     return x / y
 
@@ -24,8 +29,10 @@ print("3.Multiplication")
 print("4.Division")
 
 while True:
+    # Take input from a user
     operator = input("Enter choice(A/B/C/D): ")
 
+    # Check if the input is valid
     if operator in ('A', 'B', 'C', 'D'):
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
