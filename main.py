@@ -15,3 +15,10 @@ def multiply(x, y):
 
 def divide(x, y):
     return x / y
+
+
+print("Choose an Operation")
+print("1.Addition")
+print("2.Subtraction")
+print("3.Multiplication")
+print("4.Division")
