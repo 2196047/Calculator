@@ -25,7 +25,7 @@ def divide(x, y):
 
 
 # This function gets the square of a number
-def square(x):
+def circle(x):
     return x * x
 
 
