@@ -32,6 +32,9 @@ def circle(x):
 def squareRoot(x):
     return math.sqrt(x)
 
+def tans(x):
+    return math.tan(x)
+
 
 print("Choose an Operation")
 print("1.Addition")
