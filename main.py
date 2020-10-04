@@ -1,4 +1,4 @@
-# Program make a simple calculator
+#
 
 
 # This function adds two variables together
@@ -21,6 +21,10 @@ def multiply(x, y):
 def divide(x, y):
     return x / y
 
+
+# This function gets the square of a number
+def square(x):
+    return x * x
 
 print("Choose an Operation")
 print("1.Addition")
