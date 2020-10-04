@@ -29,15 +29,12 @@ def square(x):
     return x * x
 
 
-def root(x):
+def squareRoot(x):
     return math.sqrt(x)
 
 def sine(x):
-    return math.sin(x)
+        return math.sin(x)
 
-
-def sine(x):
-    return math.sin(x)
 
 print("Choose an Operation")
 print("1.Addition")
