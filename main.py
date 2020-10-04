@@ -1,5 +1,7 @@
-#
+import math
 
+
+#Simple Calculator
 
 # This function adds two variables together
 def add(x, y):
@@ -25,6 +27,11 @@ def divide(x, y):
 # This function gets the square of a number
 def square(x):
     return x * x
+
+
+def squareRoot(x):
+    return math.sqrt(x)
+
 
 print("Choose an Operation")
 print("1.Addition")
