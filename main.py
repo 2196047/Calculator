@@ -29,7 +29,7 @@ def circle(x):
     return x * x
 
 
-def squareRoot(x):
+def root(x):
     return math.sqrt(x)
 
 def sine(x):
