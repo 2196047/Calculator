@@ -1,7 +1,7 @@
 import math
 
 
-#Simple Calculator
+# Simple Calculator
 
 # This function adds two variables together
 def add(x, y):
@@ -29,22 +29,28 @@ def square(x):
     return x * x
 
 
-def squareRoot(x):
+# This function gets the square root of a number
+def square_root(x):
     return math.sqrt(x)
 
+
+# This function gets the sine of a number
 def sine(x):
-        return math.sin(x)
+    return math.sin(x)
 
 
 print("Choose an Operation")
-print("1.Addition")
-print("2.Subtraction")
-print("3.Multiplication")
-print("4.Division")
+print("A.Addition")
+print("B.Subtraction")
+print("C.Multiplication")
+print("D.Division")
+print("E.Square")
+print("F.Square root")
+print("G.Sine")
 
 while True:
     # Take input from a user
-    operator = input("Enter choice(A/B/C/D): ")
+    operator = input("Enter choice(A/B/C/D/E/F/G): ")
 
     # Check if the input is valid
     if operator in ('A', 'B', 'C', 'D'):
@@ -62,6 +68,18 @@ while True:
 
         elif operator == 'D':
             print(num1, "/", num2, "=", divide(num1, num2))
-        break
+
+    elif operator in ('E', 'F', 'G'):
+        num1 = float(input("Enter  number: "))
+
+        if operator == 'E':
+            print(num1, "=", square(num1))
+
+        if operator == 'F':
+            print(num1, "=", square_root(num1))
+
+        if operator == 'G':
+            print(num1, "=", sine(num1))
+
     else:
         print("Invalid Input")
