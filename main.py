@@ -32,8 +32,8 @@ def square(x):
 def squareRoot(x):
     return math.sqrt(x)
 
-def tans(x):
-    return math.tan(x)
+def sine(x):
+    return math.sin(x)
 
 
 def sine(x):
