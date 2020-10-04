@@ -25,13 +25,16 @@ def divide(x, y):
 
 
 # This function gets the square of a number
-def circle(x):
+def square(x):
     return x * x
 
 
 def squareRoot(x):
     return math.sqrt(x)
 
+
+def sine(x):
+    return math.sin(x)
 
 print("Choose an Operation")
 print("1.Addition")
